@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		if ($conn->query($sql) === TRUE) {
 
 // Redirect after 1 second
-header("refresh:1; url=index.php");
+header("refresh:1; url=login.php");
 
 			exit;
 
